@@ -1,0 +1,63 @@
+
+.test:hover{
+  cursor:pointer;
+  background-color: #595959;
+
+}
+
+.test{
+  color:white;
+  background-color: #3f3f3f
+}
+
+.input:hover{
+  cursor:pointer;
+}
+
+#mid {
+  position:relative;
+  height: 50px;
+  width: 100px;
+  color:white;
+  background-color: #3f3f3f;
+  border-color:  white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+#mid:hover{
+  background-color: #595959;
+
+}
+
+#left{
+  height: 50px;
+  width: 100px;
+  color:white;
+  background-color: #3f3f3f;
+  border-color:  white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+#left:hover{
+  background-color: #595959;
+
+}
+
+#right {
+  height: 50px;
+  width: 100px;
+  color:white;
+  background-color: #3f3f3f;
+  border-color:  white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+#right:hover{
+  background-color: #595959;
+}
+
