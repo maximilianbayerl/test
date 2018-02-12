@@ -1,0 +1,21 @@
+<div id="mapping">
+
+
+<mgl-map
+  [style]="'mapbox://styles/maximilianbayerl/cjajo9mu2b0mu2rpbl60ygjbi'"
+  [zoom]="[5]"
+  [center]="[10, 51.3]"
+>
+  <mgl-layer
+    id="polygon"
+    type="fill"
+    [source] = "this.createGeoJSONCircle([10, 51.58527859], 50)"
+    [paint]="{
+    'fill-color': 'rgba(255, 0, 102,0.5)',
+        'fill-opacity':0.7
+        }"
+  >
+  </mgl-layer>
+</mgl-map>
+</div>
+<!-- ca. 50 km radius  -->
