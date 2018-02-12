@@ -1,9 +1,11 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<router-outlet>
+</router-outlet>
 
-<div style="position:fixed; bottom:0; width:100%; margin-left:-8px;">
-  <div fxLayout="row wrap" fxFlexAlign="">
+<div style="z-index:4 ;position:fixed; bottom:0; width:100%; margin-left:-8px;">
+  <div fxLayout="row wrap">
   <span fxFlexAlign="left"  fxFlex="1 1 auto" fxLayout="row wrap">
-      <span fxFlex="1 0 auto" class="test"   routerLink="/home" id="left">
+      <span fxFlex="1 0 auto" class="test"   routerLink="/map" id="left">
         <span style="position: relative; top:12px; left:50%; margin-left: -12px">
           <i class="material-icons">language</i>
         </span>
@@ -13,7 +15,7 @@
           <i class="material-icons">home</i>
         </span>
       </span>
-      <span fxFlex="1 0 auto" class="test"  routerLink="/home"  id="right">
+      <span fxFlex="1 0 auto" class="test"  routerLink="/pic"  id="right">
         <span style="position: relative; top:12px; left:50%; margin-left: -12px">
          <i class="material-icons">whatshot</i>
         </span>
@@ -21,6 +23,5 @@
     </span>
 </div>
 </div>
-<router-outlet></router-outlet>
 
-<i class="material-icons">local</i>
+
