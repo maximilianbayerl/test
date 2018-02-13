@@ -39,6 +39,7 @@ export class MapComponent implements OnInit {
   }
   ret.push(ret[0]);
 
+
   return {
     "type": "geojson",
     "data": {

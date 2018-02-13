@@ -1,0 +1,194 @@
+#head {
+
+}
+
+#addPhotoButton{
+  height: 50px;
+  width:50px;
+
+  background-color: #3f3f3f;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+#addPhotoButton:hover{
+  cursor:pointer;
+  background-color: #595959;
+}
+
+#addPhotoButton:active{
+  cursor:pointer;
+  background-color: #858585;
+}
+#buttonPh{
+  position:relative;
+  top:13px;
+  left:13px;
+  color:white;
+}
+
+#addSettingButton{
+  height: 50px;
+  width:50px;
+
+  left:7px;
+  top:7px;
+  border-radius: 5px;
+  background-color: #3f3f3f;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+#addSettingButton:hover{
+  cursor:pointer;
+  background-color: #595959;
+}
+
+#addSettingButton:active{
+  cursor:pointer;
+  background-color: #858585;
+}
+
+
+#buttonSe{
+  position:relative;
+  top:13px;
+  left:13px;
+  color:white;
+}
+
+#titel{
+  text-align: center;
+  background-color: #3f3f3f;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  height: 52px;
+}
+
+#titeltext{
+  position: relative;
+  color:#3f3f3f; /*später weiß */
+  top:0;
+  font: 30px 'Pacifico', Helvetica, sans-serif;
+}
+
+#box{
+  position: absolute;
+  bottom:120px;
+  margin:auto;
+  border-radius: 20px;
+  width:90%;
+  max-width:450px;
+  background-color: green;
+  max-height: 70%;
+}
+
+#placeholder{
+  position: relative;
+  width:90%;
+  height: auto;
+  max-width: 400px;
+  background-color: red;
+  margin-bottom:10px;
+}
+
+#bar{
+  height:50px;
+  width:90%;
+  max-width:400px;
+}
+
+#addbuttonS{
+  height: 50px;
+  width:50px;
+  border-radius: 5px;
+  background-color: #3f3f3f;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+
+}
+
+#buttonS{
+  color:white;
+  position: relative;
+  top:50%;
+  margin-top:-12px;
+  left:50%;
+  margin-left:-12px;
+}
+
+#addbuttonL{
+  height: 50px;
+  width:50px;
+  border-radius: 5px;
+  background-color: #3f3f3f;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+#buttonL{
+  color:white;
+  position: relative;
+  top:50%;
+  margin-top:-12px;
+  left:50%;
+  margin-left:-12px;
+
+}
+
+#addbuttonC{
+  height: 50px;
+  width:50px;
+  border-radius: 5px;
+  background-color: #3f3f3f;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+#buttonC{
+  color:white;
+  position: relative;
+  top:50%;
+  margin-top:-12px;
+  left:50%;
+  margin-left:-12px;
+
+}
+
+#addbuttonC:hover{
+  cursor:pointer;
+  background-color: #595959;
+}
+
+#addbuttonL:hover{
+  cursor:pointer;
+  background-color: #595959;
+}
+
+#addbuttonS:hover{
+  cursor:pointer;
+  background-color: #595959;
+}
+
+#addbuttonC:active{
+  cursor:pointer;
+  background-color: #858585;
+}
+
+#addbuttonL:active{
+  cursor:pointer;
+  background-color: #858585;
+}
+
+#addbuttonS:active{
+  cursor:pointer;
+  background-color: #858585;
+}
