@@ -9,13 +9,17 @@
   <mgl-layer
     id="polygon"
     type="fill"
-    [source] = "this.createGeoJSONCircle([10, 51.58527859], 50)"
+    [source] = "this.createGeoJSONCircle([10, 51.58527859], 100)"
     [paint]="{
-    'fill-color': 'rgba(255, 0, 102,0.5)',
-        'fill-opacity':0.7
+    'fill-outline-color': 'rgba(255, 0, 102,1)',
+    'fill-color': 'rgba(0,0,0,0)'
+
         }"
   >
   </mgl-layer>
 </mgl-map>
 
-<!-- ca. 50 km radius  -->
+<!-- ca. 50 km radius
+ Alle mit selben Radius können in selbem Layer sein (selbe farbe)
+
+ -->

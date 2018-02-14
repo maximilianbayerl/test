@@ -1,0 +1,53 @@
+#buttonL{
+  position:absolute;
+  top:10px;
+  left:20px;
+}
+
+#buttonS{
+  position:absolute;
+  top:26px;
+  left:23px;
+  font-size: 18px;
+}
+
+#buttonD{
+  position:absolute;
+  top:13px;
+  left:23px;
+  color:white;
+  font-size: 18px;
+}
+
+
+#buttonM{
+  position:absolute;
+  top:30px;
+  left:26px;
+  color:black;
+  font-size: 12px;
+}
+
+.rotate-270 {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+#buttonV{
+  position:absolute;
+  top:21px;
+  left:25px;
+  color:white;
+  font-size: 14px;
+}
+
+#buttonC{
+  position:absolute;
+  top:34px;
+  left:21px;
+  color:black;
+  font-size: 8px;
+}

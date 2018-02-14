@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { MapComponent } from './map/map.component';
 import { PicComponent } from './pic/pic.component';
 import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
+import { HaversineService } from "ng2-haversine";
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { NgxMapboxGLModule } from 'ngx-mapbox-gl';
 
 
   ],
-  providers: [],
+  providers: [HaversineService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
